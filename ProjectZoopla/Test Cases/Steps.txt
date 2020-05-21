@@ -1,0 +1,8 @@
+Steps:
+1) Go to this url - https://www.zoopla.co.uk/
+2) Click on Login Button, enter valid credential & Submit login button. 
+3) You will get a home page; on that page verify website title. 
+4) Enter location (New York, Lincolnshire) & Search it
+4) Print all the price values in sorted order (descending order) on the console
+5) I need to select the fifth property on that list (it is changing every minute, so it is dynamic) 
+6) On the next page, Verify there is a logo, name and telephone no of the agent & logout
