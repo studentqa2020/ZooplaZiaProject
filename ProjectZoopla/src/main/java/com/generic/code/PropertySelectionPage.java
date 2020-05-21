@@ -47,7 +47,7 @@ public class PropertySelectionPage extends BaseLogin{
 		
 		// select 5th property		
 		propertypf.getHomePrices().get(4).click();		
-		new ExplicitWait().getExplicitWait(driver, propertypf.getAgentPhoneNum());
+//		new ExplicitWait().getExplicitWait(driver, propertypf.getAgentPhoneNum());
 		
 		//check logo and agent contact info
 		if(propertypf.getPropertyLogo().isDisplayed()) {

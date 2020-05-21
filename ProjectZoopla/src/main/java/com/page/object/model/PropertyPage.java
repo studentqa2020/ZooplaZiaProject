@@ -22,7 +22,7 @@ public class PropertyPage {
 	private WebElement propertyLogo;
 	@FindBy(xpath="(//h4[@class='ui-agent__name'])[1]")
 	private WebElement agentName;
-	@FindBy(xpath="(//p[@class='ui-agent__tel ui-agent__text'])[1]")
+	@FindBy(xpath="(//*[@class='ui-link'])[4]")
 	private WebElement agentPhoneNum;
 	@FindBy(xpath="//*[@id='header-account-panel__signed-in-link']")
 	private WebElement myZooplaBtn;
