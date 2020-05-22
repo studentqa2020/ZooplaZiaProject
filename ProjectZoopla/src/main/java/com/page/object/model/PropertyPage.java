@@ -18,7 +18,7 @@ public class PropertyPage {
 	private WebElement searchSubmit;
 	@FindBy(xpath="//a[@class='listing-results-price text-price']")
 	private List<WebElement> homePrices;
-	@FindBy(xpath="(//img[@alt='Parkmove'])[1]")
+	@FindBy(xpath="//img[@class='js-lazy-loaded']")
 	private WebElement propertyLogo;
 	@FindBy(xpath="(//h4[@class='ui-agent__name'])[1]")
 	private WebElement agentName;

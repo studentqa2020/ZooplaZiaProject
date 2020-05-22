@@ -45,9 +45,9 @@ public class PropertySelectionPage extends BaseLogin{
 		Collections.reverse(intPrice);
 		System.out.println("House Prices Sorted Desc: "+intPrice);
 		
-		// select 5th property		
+		// select 5th property
+		new ExplicitWait().getExplicitWaitVisible(driver, propertypf.getHomePrices().get(4));
 		propertypf.getHomePrices().get(4).click();		
-//		new ExplicitWait().getExplicitWait(driver, propertypf.getAgentPhoneNum());
 		
 		//check logo and agent contact info
 		if(propertypf.getPropertyLogo().isDisplayed()) {

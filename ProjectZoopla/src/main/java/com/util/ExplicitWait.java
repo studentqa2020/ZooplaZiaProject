@@ -17,5 +17,14 @@ public class ExplicitWait {
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
-
+	public void getExplicitWaitVisible(WebDriver driver, By locator) {
+		WebDriverWait wait = new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+	public void getExplicitWaitVisible(WebDriver driver, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		
+	}
+	
 }
